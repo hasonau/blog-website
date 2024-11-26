@@ -1,6 +1,6 @@
 import axios from 'axios';
-import { API_NOTIFICATION_MESSAGES, SERVICE_URLS } from '../constants/config';
-import { getAccessToken, getType } from '../utils/common-utils';
+import { API_NOTIFICATION_MESSAGES, SERVICE_URLS } from '../constants/config.js';  // Include '.js'
+import { getAccessToken, getType } from '../utils/common-utils.js';
 
 const API_URL = "http://localhost:8000";
 
